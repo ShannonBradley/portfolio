@@ -1,0 +1,241 @@
+html, body {
+    Margin: 0;
+    padding: 0;
+}
+
+.nav-menu-inner {
+  display: flex;
+  list-style-type: none; 
+}
+
+.nav-item a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(39, 134, 163);
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 25px;
+}
+
+.navbar-brand {
+  margin: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 25px;
+
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    text-align: left;
+    top: 340px;
+    left: 380px;
+    color: rgba(241, 242, 241);
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .hero-quote {
+    position: absolute;
+    text-align: left;
+    top: 400px;
+    left: 450px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+  }
+
+  .quote-box {
+    text-align: center;
+    color: dark-gray;
+    font-family: Roboto, sans-serif;
+    font-size: 25px; 
+    font-style: italic;
+  }
+
+  .quote-mobile {
+    text-align: center;
+    color: dark-gray;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    margin: 0px 40px 20px 40px;
+  }
+
+  .carousel-inner img {
+    margin: auto;
+  }
+
+  .carousel {
+    margin: 10px 10px 10px 10px;
+  }
+
+  .carousel-caption h5 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    letter-spacing: .2em;
+  }
+
+  .carousel-caption p {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+    letter-spacing: .1em;
+  }
+
+  h2{
+    font-family:Roboto, sans-serif;
+    text-align: center;
+  }
+
+  p{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 40px;   
+  }
+
+  .portfolio-top {
+    margin: 10px 40px 0px 40px;
+  }
+
+  .portfolio-bottom {
+    margin: 0px 40px 10px 40px;
+  }
+
+  i {
+    text-align: center;
+    padding: 10px 30px;
+  }
+
+.form {
+  margin: 10px 50px 10px 50px;
+
+}
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
