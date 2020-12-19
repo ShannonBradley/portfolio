@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="main.css">
     <title>Shannon Bradley's Portfolio</title>
     <link
@@ -19,7 +19,7 @@
 
 <!-- Nav Section -->
 
-    <nav class="navbar navbar-expand-sm bg-light">
+    <nav class="navbar navbar-expand-sm">
       <a class="navbar-brand">Shannon Bradley Portfolio</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="dark-blue-text"><i
@@ -138,7 +138,7 @@
 <!-- About Section -->
     <h2>About Me</h2>
     <p>After earning my bachelor’s degree from the University of Southern Indiana, I didn’t end up writing for a newspaper as I had planned. Now, many years later, I realize how fortunate I was to enter the world of corporate marketing right out of college. In my many marketing positions, I always used my writing skills, and that eventually led to my current position as a web and content manager as part of an internal digital marketing team. I use the Sitefinity content management system and digital experience platform, while working with an external development partner.</p> 
-      <p>While stuck at home during the COVID-19 pandemic, I decided there was no better time to learn web development skills including HTML & CSS, Javascript and responsive design using Bootstrap. Realizing the possibilities driven by web development, and being able to create on my own, has given me a unique skillset and understanding of how to help a company be where the world is going.To learn more about me, visit my LinkedIn or download my resume.</p><br/><a id="portfolio"></a>
+      <p>While stuck at home during the COVID-19 pandemic, I decided there was no better time to learn web development skills including HTML & CSS, Javascript and responsive design using Bootstrap. Realizing the possibilities driven by web development, and being able to create on my own, has given me a unique skillset and understanding of how to help a company be where the world is going.To learn more about me, visit my <a href="www.linkedin.com/in/shannonbradley1" target="_blank">LinkedIn profile</a> or <a href="../portfolio/assets/Shannon K Bradley Resume 12.20.pdf" target="_blank">download my resume.</a><br/><a id="portfolio"></a>
  <!-- End About -->   
 
  <!-- Portfolio Section -->
@@ -146,65 +146,70 @@
   <h2>My Portfolio</h2>
 
 <section class="portfolio-top">
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
-  <div class="col mb-4">
-    <div class="card">
-      <i class="fas fa-th"></i>
-      <div class="card-body">
-        <img class="card-img-top" src="../portfolio/assets/Static-layout.gif" alt="Card image cap"> 
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">  
+      <div class="col mb-4">
+        <div class="card">
+          <i class="fas fa-th"></i>
+          <img class="card-img-top" src="./assets/Static-layout-image.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://shannonbradley.github.io/staticLayout/">Static Layout<a></h5>
+            <p class="card-text">Recreation of existing page using HTML and CSS as class assignment. Incorporated CSS flexbox and grid.
+            </p>   
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <i class="fas fa-th"></i>
-      <img class="card-img-top" src="../portfolio/assets/Creature-project-frog-codepen.gif" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div class="col mb-4">
+        <div class="card">
+          <i class="fas fa-th"></i>
+          <img class="card-img-top" src="./assets/oldnational.com homepage.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">oldnational.com</h5>
+            <p class="card-text">Manage site using Progress Sitefinity Content Management System and Digital Experience Cloud.</p>
+          </div>
+        </div>
       </div>
+      <div class="col mb-4">
+        <div class="card">
+          <i class="fas fa-th"></i>
+          <img class="card-img-top" src="./assets/Copywriting portfolio.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><a href="https://shannonbradley.journoportfolio.com/">Copy & Content</a></h5>
+            <p class= "card-text">Portfolio showing content written for oldnational.com and other projects.</p><a id="contact"></a>
+          </div>
+        </div>
+      </div> 
     </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <i class="fas fa-th"></i>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 <section class="portfolio-bottom">
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">  
   <div class="col mb-4">
     <div class="card">
       <i class="fas fa-th"></i>
+      <img class="card-img-top" src="./assets/Creature-project-frog-codepen.gif" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title"><a href="https://codepen.io/SKHarper/full/RwRExvp">Creature Project</a></h5>
+        <p class="card-text">First project using HTML and CSS to create image. Created in CodePen.</p>
       </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
       <i class="fas fa-th"></i>
+      <img class="card-img-top" src="./assets/API Project.png" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title"><a href="https://apiphotoproject.web.app/">Lorem Picsum API</h5></a>
+        <p class="card-text">Created page using Lorem Picsum API and photos using a "changes in life" theme.</p>
       </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
       <i class="fas fa-th"></i>
+      <img class="card-img-top" src="./assets/API Fetch Repl.gif" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><a id="contact"></a>
+        <h5 class="card-title"><a href="https://codepen.io/SKHarper/full/RwRExvp">API Repl</h5></a>
+        <p class="card-text">Class assignment using API Fetch.</p><a id="contact"></a>
       </div>
     </div>
   </div> 
@@ -213,7 +218,7 @@
 <!-- End Portfolio -->    
 
 <!-- Contact Form --> 
-
+<div class = "formBg">
 <h2>Let's Talk</h2>
 <section class = "form">
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xpzoyorl" method="post">
@@ -226,9 +231,10 @@
     <textarea rows="5" name="message" id="message"  required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Submit">
+ <input type="submit" value="Submit"> 
 </form>
 </section>
+</div>
 <!-- End Contact Form -->
 
 <!-- Footer -->

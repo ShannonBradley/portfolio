@@ -13,10 +13,11 @@ html, body {
   text-decoration: none;
   color: rgb(39, 134, 163);
   font-family: Roboto, sans-serif;
-  font-size: 20px;
+  font-size: 30ems;
   font-weight: bolder;
   line-height: 25px;
 }
+
 
 .navbar-brand {
   margin: 5px 10px 5px 10px;
@@ -27,6 +28,10 @@ html, body {
   font-weight: normal;
   line-height: 25px;
 
+}
+
+.header-menu-nav-item a {
+  font-size: 10px;
 }
 
 .hero-image {
@@ -110,10 +115,23 @@ html, body {
     text-align: center;
   }
 
+  h5{
+    font-family:Roboto, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+  }
+
   p{
     font-family: Roboto, sans-serif;
     text-align: center;
     margin: 40px;   
+  }
+
+  .card-text {
+    font-family: Roboto, sans-serif;
+    text-align: center; 
+    font-size: 14px;
+    font-weight: normal;
   }
 
   .portfolio-top {
@@ -131,8 +149,8 @@ html, body {
 
 .form {
   margin: 10px 50px 10px 50px;
-
 }
+
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -197,7 +215,7 @@ html, body {
 #fs-frm [type="button"]:focus,
 #fs-frm [type="submit"]:focus,
 #fs-frm [type="reset"]:focus {
-  outline: none;
+  outline: none; 
 }
 #fs-frm [type="submit"],
 #fs-frm [type="reset"] {
@@ -239,3 +257,13 @@ html, body {
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+
+.formBg {
+  background: rgb (229, 228, 226);
+  padding: 20px 0px 10px 0px
+}
+
+
+
+
+
